@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--把对象的创建交给spring来管理-->
+<!--
+    &lt;!&ndash; 创建Beaan的第一种方式 &ndash;&gt;
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl"></bean>
+
+-->
+
+<!--
+
+    &lt;!&ndash;创建Bean的第二种方式  通过实例工厂方法来创建&ndash;&gt;
+    <bean id="instancFactory" class="com.itheima.factory.InstanceFactory"></bean>
+    <bean id="accountService" factory-bean="instancFactory" factory-method="getAccountService"></bean>
+
+-->
+<!--
+    &lt;!&ndash;创建Bean的第二种方式 使用某个类中的静态方法创建对象&ndash;&gt;
+    <bean id="accountService" class="com.itheima.factory.StaticFactory" factory-method="getAccountService"></bean>
+    -->
+
+    <bean id="accountService" class="com.itheima.service.impl.AccountServiceImpl" >
+        <constructor-arg name="name" value="zhangsan"></constructor-arg>
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="birthday" ref="now"></constructor-arg>
+    </bean>
+    <!--配置一个日期对象 用ref调用-->
+    <bean id="now" class="java.util.Date"></bean>
+
+<!--
+
+        &lt;!&ndash;set方法注入&ndash;&gt;
+
+        <bean id="accountService2" class="com.itheima.service.impl.AccountServiceImpl2">
+            <property name="name" value="李四"></property>
+            <property name="age" value="21"></property>
+            <property name="birthday" ref="now"></property>
+        </bean>
+    -->
+
+    <!--集合注入-->
+    <bean id="accountService3" class="com.itheima.service.impl.AccountServiceImpl3">
+        <property name="myStrs">
+            <array>
+                <value>AAA</value>
+                <value>BBB</value>
+                <value>CCC</value>
+            </array>
+        </property>
+
+        <property name="myList">
+            <list>
+                <value>111</value>
+                <value>222</value>
+                <value>333</value>
+            </list>
+        </property>
+    </bean>
+</beans>

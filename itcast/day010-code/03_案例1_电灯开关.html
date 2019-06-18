@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电灯开关</title>
+</head>
+<body>
+<img src="img/off.gif" id="light">
+<script>
+    var light = document.getElementById("light");
+     //设置一个标记,设为false,代表灯一开始是灭的
+     var b = false;
+     light.onclick = function fun() {
+         if (b == true){
+             light.src = "img/off.gif";
+             b = false;
+         }else{
+             light.src = "img/on.gif";
+             b = true;
+         }
+     }
+   /* var light = document.getElementById("light");
+    var b = false;
+    light.onclick = function fun() {
+
+        if (b == true) {
+            light.src = "img/off.gif";
+            b = false;
+        } else {
+            light.src = "img/on.gif";
+            b = true;
+        }
+    }*/
+</script>
+</body>
+</html>

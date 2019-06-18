@@ -1,0 +1,11 @@
+2019-06-12 08:28:35,135 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3fb6a447: startup date [Wed Jun 12 08:28:35 CST 2019]; root of context hierarchy
+2019-06-12 08:28:35,258 123    [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-06-12 08:28:36,125 990    [           main] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[cn.itheima.dao]' package. Please check your configuration.
+2019-06-12 08:28:36,507 1372   [           main] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-06-12 08:28:47,215 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3fb6a447: startup date [Wed Jun 12 08:28:47 CST 2019]; root of context hierarchy
+2019-06-12 08:28:47,314 99     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-06-12 08:28:47,914 699    [           main] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[cn.itheima.dao]' package. Please check your configuration.
+2019-06-12 08:28:48,277 1062   [           main] INFO  source.DriverManagerDataSource  - Loaded JDBC driver: com.mysql.jdbc.Driver
+2019-06-12 08:37:50,687 0      [           main] INFO  ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3fb6a447: startup date [Wed Jun 12 08:37:50 CST 2019]; root of context hierarchy
+2019-06-12 08:37:50,784 97     [           main] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-06-12 08:37:51,427 740    [           main] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[cn.itheima.dao]' package. Please check your configuration.

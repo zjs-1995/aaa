@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.8.3.js"></script>
+    <script>
+        $(function () {
+          $("#btn").click(function () {
+              var username = $("#username").val();
+              var password = $("#password");
+              $.get("/loginServlet",{"username":username,"password":password},function (data) {
+                   // 把登录提示信息显示在id为d1的div标签中
+                  $("#d1").val().
+              })
+          })
+        })
+    </script>
+</head>
+<body>
+
+<input name="username" id="username" type="text" placeholder="请输入用户名"><br>
+<input name="username" id="password" type="text" placeholder="请输入密码"><br>
+<button id="btn">登录</button>
+<!--显示是否登陆成功的提示信息-->
+<div id="d1"></div>
+</body>
+</html>

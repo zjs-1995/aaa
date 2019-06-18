@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script>
+
+        $(function () {
+           $.get("provinceServlet",{},function (data) {
+               var province = $("#province");
+                $(data).each(function () {
+                    //循环的方式 创建option标签
+                    var option = "<option name='"+this.id+"'>"+this.name+"</option>";
+                    //调用jq对象的append方法把创建的option标签添加到province后边
+                    province.append(option);
+                });
+           });
+        });
+
+    </script>
+
+
+</head>
+<body>
+
+<select id="province">
+    <option>--请选择省份--</option>
+
+</select>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zjs:war">
+    <output-path>$PROJECT_DIR$/zjs/target</output-path>
+    <root id="archive" name="zjs-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zjs:war exploded" />
+    </root>
+  </artifact>
+</component>

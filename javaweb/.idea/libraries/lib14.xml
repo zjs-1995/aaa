@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib14">
+    <CLASSES>
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/druid-1.0.9.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/jstl-impl.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib18">
+    <CLASSES>
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/jackson-annotations-2.2.3.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/jstl-impl.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/jackson-databind-2.2.3.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/jackson-core-2.2.3.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/commons-pool2-2.3.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/jedis-2.7.0.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar!/" />
+      <root url="jar://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/web/WEB-INF/lib/druid-1.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

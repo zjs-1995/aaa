@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day02_test2/web/WEB-INF/lib/commons-beanutils-1.8.0/commons-beanutils-1.8.0.iml" filepath="$PROJECT_DIR$/day02_test2/web/WEB-INF/lib/commons-beanutils-1.8.0/commons-beanutils-1.8.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_test2/web/WEB-INF/lib/commons-beanutils-1.8.0/commons-beanutils-1.8.01.iml" filepath="$PROJECT_DIR$/day02_test2/web/WEB-INF/lib/commons-beanutils-1.8.0/commons-beanutils-1.8.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_servlet/day01_servlet.iml" filepath="$PROJECT_DIR$/day01_servlet/day01_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_tomcat/day01_tomcat.iml" filepath="$PROJECT_DIR$/day01_tomcat/day01_tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_request/day02_request.iml" filepath="$PROJECT_DIR$/day02_request/day02_request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_test/day02_test.iml" filepath="$PROJECT_DIR$/day02_test/day02_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_test1/day02_test1.iml" filepath="$PROJECT_DIR$/day02_test1/day02_test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02_test2/day02_test2.iml" filepath="$PROJECT_DIR$/day02_test2/day02_test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03_response/day03_response.iml" filepath="$PROJECT_DIR$/day03_response/day03_response.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_cookie&amp;session/day04_cookie&amp;session.iml" filepath="$PROJECT_DIR$/day04_cookie&amp;session/day04_cookie&amp;session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05_case/day05_case.iml" filepath="$PROJECT_DIR$/day05_case/day05_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day05_case1/day05_case1.iml" filepath="$PROJECT_DIR$/day05_case1/day05_case1.iml" />
+      <module fileurl="file://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/day17_case.iml" filepath="D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/day17_case.iml" />
+      <module fileurl="file://D:/资料/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/day17_case1.iml" filepath="D:/资料/预习班资料/学习资料/就业班/java web/day19_三层架构&amp;综合练习一/代码/day17_case/day17_case1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20_JQuery/day20_JQuery.iml" filepath="$PROJECT_DIR$/day20_JQuery/day20_JQuery.iml" />
+      <module fileurl="file://D:/资料/预习班资料/学习资料/就业班/java web/day22_JQuery基础/代码/day20_JQuery基础/day20_JQuery基础.iml" filepath="D:/资料/预习班资料/学习资料/就业班/java web/day22_JQuery基础/代码/day20_JQuery基础/day20_JQuery基础.iml" />
+      <module fileurl="file://D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day22_JQuery基础/代码/day20_JQuery基础/day20_JQuery基础.iml" filepath="D:/新建文件夹 (2)/预习班资料/学习资料/就业班/java web/day22_JQuery基础/代码/day20_JQuery基础/day20_JQuery基础.iml" group="commons-beanutils-1" />
+      <module fileurl="file://D:/资料/预习班资料/学习资料/就业班/java web/day23_JQuery高级/代码/day21_JQuery高级/day21_JQuery高级.iml" filepath="D:/资料/预习班资料/学习资料/就业班/java web/day23_JQuery高级/代码/day21_JQuery高级/day21_JQuery高级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21_JQuery高级练习/day21_JQuery高级练习.iml" filepath="$PROJECT_DIR$/day21_JQuery高级练习/day21_JQuery高级练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22/day22.iml" filepath="$PROJECT_DIR$/day22/day22.iml" />
+      <module fileurl="file://D:/资料/预习班资料/学习资料/就业班/java web/day24_Ajax&amp;Json/代码/day22_Ajax&amp;Json/day22_Ajax&amp;Json1.iml" filepath="D:/资料/预习班资料/学习资料/就业班/java web/day24_Ajax&amp;Json/代码/day22_Ajax&amp;Json/day22_Ajax&amp;Json1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22_Ajax&amp;Json练习/day22_Ajax&amp;Json练习.iml" filepath="$PROJECT_DIR$/day22_Ajax&amp;Json练习/day22_Ajax&amp;Json练习.iml" />
+      <module fileurl="file://D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/day23_redis.iml" filepath="D:/资料/预习班资料/学习资料/就业班/资料下发/day25_redis/代码/day23_redis/day23_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23_redis练习/day23_redis练习.iml" filepath="$PROJECT_DIR$/day23_redis练习/day23_redis练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23_redis练习1/day23_redis练习1.iml" filepath="$PROJECT_DIR$/day23_redis练习1/day23_redis练习1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

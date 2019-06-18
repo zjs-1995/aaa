@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../day01/day01.iml" filepath="$PROJECT_DIR$/../day01/day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day01_mb/day01_mb.iml" filepath="$PROJECT_DIR$/../day01_mb/day01_mb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day01_mybatis.iml" filepath="$PROJECT_DIR$/day01_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day02_mybatisCRUD/day02_mybatisCRUD.iml" filepath="$PROJECT_DIR$/../day02_mybatisCRUD/day02_mybatisCRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day03_mb/day03_mb.iml" filepath="$PROJECT_DIR$/../day03_mb/day03_mb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day03_mybatis/day03_mybatis.iml" filepath="$PROJECT_DIR$/../day03_mybatis/day03_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day03mb111/day03mb111.iml" filepath="$PROJECT_DIR$/../day03mb111/day03mb111.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day04_mb1111/day04_mb1111.iml" filepath="$PROJECT_DIR$/../day04_mb1111/day04_mb1111.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day04_mb222/day04_mb222.iml" filepath="$PROJECT_DIR$/../day04_mb222/day04_mb222.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day04_mb333/day04_mb333.iml" filepath="$PROJECT_DIR$/../day04_mb333/day04_mb333.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day04_mybatis/day04_mybatis.iml" filepath="$PROJECT_DIR$/../day04_mybatis/day04_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day04mb/day04mb.iml" filepath="$PROJECT_DIR$/../day04mb/day04mb.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountDao">
+    <!--<resultMap id="account_user" type="account">
+        <id column="aid" property="id"></id>              &lt;!&ndash;数据库中列明对应实现类中属性名&ndash;&gt;
+        <result column="uid" property="uid"></result>
+        <result column="money" property="money"></result>
+        
+    <association property="user" javaType="user">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+    </association>
+    </resultMap>
+       &lt;!&ndash; 查询所有  一对一 &ndash;&gt;
+    <select id="findAll" resultMap="account_user">
+        select u.*,a.id as aid,a.uid,a.money from account a,user u where a.uid =u.id;
+    </select>
+   &lt;!&ndash; 查询所有账户同时包含用户名和地址信息&ndash;&gt;
+    <select id="findAllAccount" resultType="com.itheima.domain.AccountUser">
+        SELECT a.*,u.username,u.address FROM account a , USER  u WHERE u.id = a.uid;
+    </select>-->
+
+    <resultMap id="userMap" type="user">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="address" property="address"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <collection property="accounts" ofType="account">
+            <id column="aid" property="id"></id>
+            <result column="uid" property="uid"></result>
+            <result column="money" property="money"></result>
+        </collection>
+    </resultMap>
+    <select id="findAllInfo" resultMap="userMap">
+        SELECT u.*,a.id AS aid,a.uid,a.money FROM USER u LEFT OUTER JOIN account a ON u.id = a.uid
+    </select>
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day04_mb333" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day01" target="1.5" />
+      <module name="day01_mb" target="1.5" />
+      <module name="day01_mybatis" target="1.5" />
+      <module name="day02_mybatisCRUD" target="1.5" />
+      <module name="day03_mb" target="1.5" />
+      <module name="day03_mybatis" target="1.5" />
+      <module name="day03mb111" target="1.5" />
+      <module name="day04_mb1111" target="1.5" />
+      <module name="day04_mb222" target="1.5" />
+      <module name="day04_mb333" target="1.5" />
+      <module name="day04_mybatis" target="1.5" />
+      <module name="day04mb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace为Mapper/Dao的全类名 -->
+<mapper namespace="com.itheima.dao.UserDao">
+    <!--
+       id:方法名称
+       resultType:返回结果的数据类型
+   -->
+    <select id="findAll" resultType="com.itheima.domain.User">
+        SELECT * FROM USER
+    </select>
+
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.AccountDao">
+    <resultMap id="account_user" type="account">
+        <id column="aid" property="id"></id>              <!--数据库中列明对应实现类中属性名-->
+        <result column="uid" property="uid"></result>
+        <result column="money" property="money"></result>
+        
+    <association property="user" javaType="user">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="sex" property="sex"></result>
+        <result column="birthday" property="birthday"></result>
+        <result column="address" property="address"></result>
+    </association>
+    </resultMap>
+       <!--查询所有  一对一 -->
+    <select id="findAll" resultMap="account_user">
+        select u.*,a.id as aid,a.uid,a.money from account a,user u where a.uid =u.id;
+    </select>
+   <!--查询所有账户同时包含用户名和地址信息-->
+    <select id="findAllAccount" resultType="com.itheima.domain.AccountUser">
+        SELECT a.*,u.username,u.address FROM account a , USER  u WHERE u.id = a.uid;
+    </select>
+
+</mapper>

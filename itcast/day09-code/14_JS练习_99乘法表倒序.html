@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>99乘法表倒序</title>
+    <style>
+        td {
+            border: .5px solid blue;
+            text-align: center;
+            width: 100px;
+            height: 45px;
+            line-height: 45px;
+        }
+    </style>
+    <!--
+    <script type="text/javascript">
+        var strResult = "";
+        strResult += "<table>"
+        for (var i = 9; i >= 1; i&#45;&#45;) {
+            strResult += "<tr>"
+            for (j = 1; j <= i; j++) {
+                strResult += "<td>"
+                strResult += i + "*" + j + "=" + i * j + "\t\t";
+                strResult += "</td>"
+            }
+            strResult += "</tr>"
+        }
+        strResult += "</table>"
+        document.write(strResult)
+    </script>-->
+
+    <script>
+        var strResult = "";
+        strResult += "<table>"
+        for (i = 9;i>= 1;i--){
+            strResult += "<tr>"
+            for (j=1;j<=i;j++){
+                strResult += "<td>"
+                strResult += i + "*" + j + "=" + i * j + "\t\t";
+                strResult += "</td>"
+            }
+            strResult += "</tr>"
+        }
+        strResult += "</table>"
+        document.write(strResult)
+    </script>
+</head>
+<body>
+
+</body>
+</html>

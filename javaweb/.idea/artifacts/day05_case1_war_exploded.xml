@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day05_case1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day05_case1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day05_case1" />
+          <element id="module-output" name="commons-beanutils-1.8.0" />
+          <element id="module-output" name="commons-beanutils-1.8.01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib9" />
+          <element id="library" level="project" name="lib11" />
+          <element id="library" level="project" name="commons-beanutils-1.8.0" />
+          <element id="library" level="project" name="lib4" />
+          <element id="library" level="project" name="lib7" />
+          <element id="library" level="project" name="lib13" />
+          <element id="library" level="project" name="lib5" />
+          <element id="library" level="project" name="lib2" />
+          <element id="library" level="project" name="lib6" />
+          <element id="library" level="project" name="commons-beanutils-1.8.01" />
+          <element id="library" level="project" name="lib12" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="day05_case1/web/Web" />
+    </root>
+  </artifact>
+</component>

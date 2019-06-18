@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/feiq/Recv Files/travel" />
+    <file type="web" url="file://D:/feiq/Recv Files/web" />
+    <file type="web" url="file://$PROJECT_DIR$/travel" />
+    <file type="web" url="file://$PROJECT_DIR$/travel1" />
+    <file type="web" url="file://$PROJECT_DIR$/travel1111" />
+    <file type="web" url="file://$PROJECT_DIR$/web" />
+    <file type="web" url="file://$PROJECT_DIR$/zjs" />
+    <file type="web" url="file://$PROJECT_DIR$/../travelweb1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/normal/pom.xml" />
+        <option value="$PROJECT_DIR$/travel1111/pom.xml" />
+        <option value="$PROJECT_DIR$/travel/pom.xml" />
+        <option value="$PROJECT_DIR$/zjs/pom.xml" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../travelweb1/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
